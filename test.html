@@ -1,7 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Theme Made By www.w3schools.com -->
+  <!-- Theme Made By www.w3schools.com  
+
+.responsive {
+  max-width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+} -->
   <title>Bootstrap Theme Company Page</title>  
   
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,13 +20,28 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <style>
-    
- .responsive {
-  max-width: 100%;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
+  
+    body, html {
+  height: 100%;
+  margin: 0;
 }
+
+.bg {
+  /* The image used */
+  background-image: url("logo_final.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+    
+    
+    
+
   body {
     font: 400 15px Lato, sans-serif;
     line-height: 1.8;
@@ -225,9 +247,12 @@
   </div>
 </nav>
 
-<div class="jumbotron text-center">
+  <div class="bg"></div>
+
+  
+  <!-- <div class="jumbotron text-center">
  <img src="logo_final_2.jpg" alt="Rack" class="responsive" style="margin-left:auto; margin-right:auto">
-</div>
+</div> -->
 
 <!-- Container (About Section) -->
 <div id="about" class="container-fluid">
